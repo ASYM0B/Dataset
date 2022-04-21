@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" name="Tiara-A-Chatbot">
+  <intents name="greet">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="hey"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="hello"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="hi"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="good morning"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="good evening"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="hey there"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="good afternoon"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="have_symptoms">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I have corona symptoms what I do."/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I think I have these symptoms, should I go to doctor."/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="had fever from 2 days, Do I have corona."/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I have fever for last 2 days. Should I go to test for corona."/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I have cough and cold since last 3 days"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I have nasal congestion. Should i visit a doctor?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I have sore throat and diarrhea. what should i do?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I have cough and cold since last 3 days. what should i do?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="goodbye">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="bye"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="goodbye"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="see you around"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="see you later"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="good bye"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="GoodBye"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Good Bye"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Bye"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="bot_challenge">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="are you a bot?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="am I talking to a bot?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="are you a covid19 help bot?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="are you a covid bot?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="are you a coronavirus bot?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="are you a coronavirus help bot?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="are you a corona virus bot?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="are you a corona virus help bot?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="bot_notahuman">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="are you a human?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="am I talking to a human?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Human?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="It seems like I am talking to a human"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="You are too good not to be human"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="corona_intro">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="What is corona virus"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="what is covid"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="what is a novel corona virus"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="what is covid-19"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about corona"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="can you tell me about covid"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="can you tell me what is corona"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="what is corona"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="what is SARS-CoV-2"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="can you tell me about SARS-CoV-2"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="what is novel coronavirus"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="corona_spread">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how does corona virus spread"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how does the virus spread"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how can corona spread"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how can covid-19 spread"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="corona_food_spread">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Does corona spread from food"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how will corona spread from food"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Can the virus that causes COVID-19 be transmitted through the food?"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Can the virus that causes corona be transmitted through the food"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="warm_weather">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="will warm weather stop the spread"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="will it stop with warm weather"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how will warm weather affect corona"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="what affect will warm weather cause on covid"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="high_risk">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="who is at a higher risk of infection"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="who are affected most by covid"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="for whom corona is most dangerous"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Who is at risk of developing severe illness due to covid"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="who are clinically extremely vulnerable"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="happy_to_help">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Thank you"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Thanks"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Thanks for info"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="thank you for the details"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="what_name">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="What is your name"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Who are you"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Who am i talking to?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="spread_through_air"/>
+  <intents name="okay"/>
+  <intents name="how_safe_cloth_mask"/>
+  <intents name="no_symptoms"/>
+  <intents name="feces"/>
+  <intents name="likely_to_catch"/>
+  <intents name="antibiotics"/>
+  <intents name="medicines_therapies"/>
+  <intents name="symptoms"/>
+  <intents name="protection"/>
+  <intents name="vaccine"/>
+  <intents name="sars"/>
+  <intents name="mask"/>
+  <intents name="dispose_mask"/>
+  <intents name="incubation_period"/>
+  <intents name="surface"/>
+  <intents name="anything_i_shouldn't_do"/>
+  <intents name="package"/>
+  <intents name="protective_measure_14days"/>
+  <intents name="safe_to_travel"/>
+  <intents name="fine"/>
+  <intents name="what_animals"/>
+  <intents name="animals"/>
+  <intents name="Thermal_scanner"/>
+  <intents name="hydroxychloroquine"/>
+  <intents name="houseflies"/>
+  <intents name="5g"/>
+  <intents name="corona_for_life"/>
+  <intents name="who_developed_you"/>
+  <intents name="country_deathrate"/>
+  <intents name="corona_state_deathrate"/>
+  <intents name="corona_globaldeathrate"/>
+  <intents name="country_recoveryrate"/>
+  <intents name="corona_state_recoveryrate"/>
+  <intents name="corona_globalrecoveryrate"/>
+  <intents name="criteria_for_test"/>
+  <intents name="vomiting_and_diarrhea"/>
+  <intents name="coronavirus_229E"/>
+  <intents name="Corona_free_country"/>
+  <intents name="community_transmission"/>
+  <intents name="coronavirus_family"/>
+  <intents name="dangerous_coronavirus"/>
+  <intents name="plasma_therapy"/>
+  <intents name="most_affected_states"/>
+  <intents name="least_affected_states"/>
+  <intents name="features"/>
+  <intents name="data_correct"/>
+  <intents name="diff_isolation_quarantine"/>
+  <intents name="diff_mask"/>
+  <intents name="face_shield"/>
+  <intents name="ppe"/>
+  <intents name="gloves"/>
+  <intents name="corona_country"/>
+  <intents name="corona_state"/>
+  <intents name="corona_global"/>
+  <intents name="mood_great"/>
+  <intents name="mood_unhappy"/>
+  <intents name="affirm"/>
+  <intents name="deny"/>
+  <actions xsi:type="generator:Empty" name="action_world_Recoveryrate_empty"/>
+  <actions xsi:type="generator:Text" name="utter_most_affected_states_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Maharashtra is the most affected State of India with over 1 Lakh cases."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_corona_intro_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Coronaviruses are a group of related viruses that cause diseases in mammals and birds. In humans, coronaviruses cause respiratory tract infections that can be mild, such as some cases of the common cold (among other possible causes, predominantly rhinoviruses), and others that can be lethal, such as SARS, MERS, and COVID-19"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_happy_to_help_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm very pleased that I was able to help you."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_greet_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey! How are you?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_did_that_help_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Did that help you?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_features_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Currently, I can provide you Coronavirus(COVID-19) stats of 184 countries and 34 States and Union Territories of India. Along with this, I can also reply back to different coronavirus queries of yours."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_likely_to_catch_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The risk depends on where you are - and more specifically, whether there is a COVID-19 outbreak unfolding there. For most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19. COVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly. It&#x2019;s important to be aware of the situation where you are or intend to go."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_symptoms_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don&#x2019;t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_dangerous_coronavirus_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Covid-19 is transmitted much more readily between humans than its closest relation, Sars, which caused outbreaks of serious disease in a few countries in 2003. The new coronavirus is, however, less dangerous to most people it infects than Sars. Computer modelling suggests that each new Covid-19 case infects 2.5 other people on average when no effort is made to keep people apart. The Chinese authorities have greatly reduced this &#x201c;reproduction number&#x201d; through drastic action to isolate cases and trace their contacts &#x2014; and the rest of the world is rapidly introducing social distancing measures. &#xA;The virus has caused severe respiratory disease in about 20 per cent of patients and killed more than 3 per cent of confirmed cases. Sars killed 10 per cent of infected individuals. Older people, whose immune defences have declined with age, as well as those with underlying health conditions, are much more vulnerable than the young. &#xA;But fatality rates are hard to estimate in the early stages of an epidemic and depend on the medical care given to patients. For example, ventilators save lives by enabling people with pneumonia to breathe. Most experts believe the current fatality rate is exaggerated by serious under-diagnosis of mild cases; the best current estimate is that Covid-19 will kill around 1 per cent of those infected in a population with good healthcare. &#xA;For comparison, seasonal flu has a mortality rate below 0.1 per cent but it infects so many people that it results in about 400,000 deaths a year worldwide. Spanish flu infected an estimated 500m people and killed 50m worldwide in 1918-19. Hypothetically, if Covid-19 affected half the world&#x2019;s current population over the course of a year with a 1 per cent fatality rate, the death toll would be 35m &#x2014; substantially increasing the number of deaths worldwide, which is around 60m for all causes in a typical year."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_mask_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. If you are not ill or looking after someone who is ill then you are wasting a mask. There is a world-wide shortage of masks, so We urge people to use masks wisely. We advises rational use of medical masks to avoid unnecessary wastage of precious resources and mis-use of masks The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing. 4 Types of masks available and is recommended are :- &#xA; 1. Surgical Mask &#xA; 2. N95 and FFP1 masks &#xA; 3.Activated Carbon Masks &#xA; 4.Cloth or sponge masks"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_community_transmission_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="According to the World Health Organisation (WHO), community transmission &#x201c;is evidenced by the inability to relate confirmed cases through chains of transmission for a large number of cases, or by increasing positive tests through sentinel samples (routine systematic testing of respiratory samples from established laboratories)&#x201d;. &#xA;In other words, community transmission or spread is said to be taking place when the source of the contagion is not known, i.e. when one is unable to trace an infection back to a carrier who has travelled in an affected area, or through contact with a person who has the disease. &#xA;A state of community spread implies that the virus is now circulating in the community, and can infect people with no history &#x2014; either of travel to or contact with affected people and areas. At this stage, it is theoretically possible for everyone to catch the infection."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_corona_food_spread_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Coronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety. Throughout the day wash your hands after blowing your nose, coughing or sneezing, or going to the bathroom."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_coronavirus_229E_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="CoV229e is one of several coronaviruses that cause common colds. Biologically related to SARS-CoV-2 (the cause of COVID-19), but different viruses."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_surface_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The most important thing to know about coronavirus on surfaces is that they can easily be cleaned with common household disinfectants that will kill the virus. But it is still not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other corona viruses. Studies suggest that corona viruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment). If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_world_corona_empty"/>
+  <actions xsi:type="generator:Text" name="utter_criteria_for_test_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Real vs. textbook. Real-life criteria is different because we don't have enough tests, supplies, or medical staff around the world at this time (June 2020). Textbook criteria are suspected COVID in hospitalized persons or in those with underlying medical conditions; or persons who got symptoms less than 14 days after (1) contact with a suspect or confirmed COVID patient or (2) travel through high-risk COVID area."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_dispose_mask_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="1. Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough.&#xA;2. Before touching the mask, clean hands with an alcohol-based hand rub or soap and water. &#xA;3. Take the mask and inspect it for tears or holes.&#xA;4. Orient which side is the top side (where the metal strip is).&#xA;5. Ensure the proper side of the mask faces outwards (the coloured side).&#xA;6. Place the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose. &#xA;7. Pull down the mask&#x2019;s bottom so it covers your mouth and your chin.&#xA; 8. After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask.&#xA; 9. Discard the mask in a closed bin immediately after use.&#xA; 10. Perform hand hygiene after touching or discarding the mask &#x2013; Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_incubation_period_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The &#x201c;incubation period&#x201d; means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_bot_challenge_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Yes, I am Tiara. A Chatbot designed to help you with Coronavirus (Covid -19) queries."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_data_correct_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The coronavirus(COVID-19) data shown here by me is provided by api.covid19api.com/summary which collects data from Johns Hopkins Coronavirus Resource Center Website and api.covid19india.org which collects data from state bulletins and official handles."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_corona_tracker_empty"/>
+  <actions xsi:type="generator:Text" name="utter_spread_through_air_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_ppe_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Personal Protective Equipments (PPEs) are protective gears designed to safeguard the health of workers by minimizing the exposure to a biological agent. Components of PPE are goggles, face-shield (Google and face shield work similar), mask, gloves, coverall/gowns (with or without aprons) head cover and shoe cover.&#xA; The price of PPE kit start from Rs. 200 and depends on the component you want to add or remove."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_protective_measure_14days_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="1. Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people. Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.&#xA;2. If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers. Why? Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also help to prevent possible spread of COVID-19 and other viruses."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_animals_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="At this time, there is no evidence that animals play a significant role in spreading the virus that causes COVID-19. Based on the limited information available to date, the risk of animals spreading COVID-19 to people is considered to be low. A small number of pets have been reported to be infected with the virus that causes COVID-19, mostly after contact with people with COVID-19.&#xA;Pets have other types of coronaviruses that can make them sick, like canine and feline coronaviruses. These other coronaviruses cannot infect people and are not related to the current COVID-19 outbreak.&#xA;However, since animals can spread other diseases to people, it&#x2019;s always a good idea to practice healthy habits around pets and other animals, such as washing your hands and maintaining good hygiene."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_diff_mask_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="There are 4 major types of mask available and you should wear mask according to places you go. &#xA; 1. SURGICAL MASK: commonly available form of masks in the market, surgical masks protect a person against large splashes of droplets, water, sprays and used in medical facilities. While they do cover your mouth, surgical masks can't really protect you from catching or transmitting the coronavirus or any such microbe in the air, since it has loose gaps which can help the germs crawl in. A high-grade surgical mask can stop the transmission of different kinds of viruses (up to 80-90%), especially if used by a person who is sick. If the wearer coughs or sneezes, the surgical mask will help collect the larger particles expelled. The price of surgical mask is between Rs.1 to Rs. 20. &#xA;2. N95 and FFP1: Masks with N95 rating filter 95% of particles 0.3 microns or larger in diameter, roughly the size of a single virus and include PM 2.5. Some masks also have an attachment called the exhalation valve, which can filter out humidity build-up and is best for those having suffocation problem. Compared to all other masks, N95 masks offer the highest level of protection Price of N95 mask start from Rs.150 and KN95 mask Rs. 60 (similar to N95 with little different in leak of exhalation valve. N95 is better than KN 95. Both mask come with and without exhalation valve.) &#xA; FFP1 masks are considered an alternative to respiratory masks, such as the N95 ones. FFP1 masks protect a person from breathing in particles of more hazardous quality. Price of FFP1 mask start from Rs. 30. &#xA;3. ACTIVATED CARBON MASKS: these masks contain an activated carbon filter, which help collect and filter out the pollutants and germs and breathe in purer air. these masks work very well in fighting pollution and tiny particles like bacteria and fungi which spread through the air we breathe in, and thereby, prevent allergies. However, they do not work exceptionally well in fighting or preventing viruses like COVID-19 from coming in contact. They can only trap a minuscule number of viruses (10-20%) and hence, may not be the best choice right now. The price starts from Rs.40. &#xA; 4. CLOTH MASKS: Homemade masks offer LESSER protection than surgical or respirator masks. However, as the WHO guidelines read, they can help a person keep the face area clean and prevent the spread of nasty germs and other contagious viruses. Sanitization and disinfecting are crucial steps which can prevent and stop the spread of coronavirus. Cloth and sponge masks filter out about 50% of bacteria and dust pollutants."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_have_symptoms_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text=" If you have minor symptoms, such as a slight cough or a mild fever, there is generally no need to seek medical care. Stay at home, self-isolate and monitor your symptoms. &#xA; However, if you live in an area with malaria or dengue fever it is important that you do not ignore symptoms of fever. Seek medical help. &#xA; Seek immediate medical care if you have difficulty breathing or pain/pressure in the chest. If possible, call your health care provider in advance, so he/she can direct you to the right health facility."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_face_shield_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It is proven and is advised by many health experts that face shield is better than mask. It is reusable by disinfecting it every time or washed. It is comfortable to breathe in and prevent wearer to touch their face. It reinforce the importance of physical distancing. But to get complete protection, it should extend to below the chin. It should also cover the ears there should be no exposed gap between the forehead and the shield's headpiece. &#xA;Price of face shield start from Rs.70. &#xA;Googles also work similar as face shield, but can only cover eyes and some extent to ears. Masks are worn alongwith Goggles."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_Thermal_scanner_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thermal scanners are effective in detecting people who have a fever (i.e. have a higher than normal body temperature). They cannot detect people who are infected with COVID-19. There are many causes of fever. Call your healthcare provider if you need assistance or seek immediate medical care if you have fever and live in an area with malaria or dengue."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_houseflies_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="To date, there is no evidence or information to suggest that the COVID-19 virus transmitted through houseflies. The virus that cause COVID-19 spreads primarily through droplets generated when an infected person coughs, sneezes or speaks. You can also become infected by touching a contaminated surface and then touching your eyes, nose or mouth before washing your hands. To protect yourself, keep at least 1-metre distance from others and disinfect frequently-touched surfaces. Clean your hands thoroughly and often and avoid touching your eyes, mouth and nose."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_goodbye_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="GoodBye. Have a nice day ahead."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_corona_spread_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_feces_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The risk of catching COVID-19 from the feces of an infected person appears to be low. While initial investigations suggest the virus may be present in feces in some cases, spread through this route is not a main feature of the outbreak. The ongoing research on the ways COVID-19 is spread and will continue to share new findings. Because this is a risk, however, it is another reason to clean hands regularly, after using the bathroom and before eating."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_package_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_gloves_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="WHO(World Health Organization) recommends wearing gloves when you are cleaning or caring for someone who is sick. In most other situations, like running errands, wearing gloves is not necessary, instead practice washing your hands with soap and water for 20 seconds (or using a hand sanitizer with at least 60% alcohol) Disposable gloves are highly recommended while taking care of sick or if you using for the protection of yourself. Wearing gloves outside of these instances (for example, when using a shopping cart or using an ATM) will not necessarily protect you from getting COVID-19 and may still lead to the spread of germs."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_no_symptoms_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill.A mathematical model from a 2020 study supports this, suggesting that 40&#x2013;80% of transmission stems from those showing no symptoms."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_protection_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Stay aware of the latest information on the COVID-19 outbreak, available on the national,state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. You can reduce your chances of being infected or spreading COVID- 19 by taking some simple precautions :-&#xA;1. Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.&#xA;2. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing. Why? When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including&#x9;he COVID-19 virus if the person coughing has the disease.&#xA;3. Avoid touching yes, nose and mouth. Why? Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick.&#xA;4. Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately. Why? Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19. &#xA;5. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority. Why? National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.&#xA;6. Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely). If possible, avoid traveling to places &#x2013; especially if you are an older person or have diabetes, heart or lung disease. Why? You have a higher chance of catching COVID-19 in one of these areas."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_vomiting_and_diarrhea_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Nausea, vomiting, and/or diarrhea occur fairly frequently early in the infection, but are rarely if ever the only symptoms. If cough and fever don't develop within a day or two after vomiting or diarrhea, probably it isn't COVID-19."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_anything_i_shouldn't_do_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The following measures ARE NOT effective against COVID-2019 and can be harmful :- &#xA;1. Smoking &#xA;2. Wearing multiple masks 3. Taking antibiotics without prescription. In any case, if you have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection and be sure to share your recent travel history with your health care provider."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_Global_Recovery_rate_empty"/>
+  <actions xsi:type="generator:Empty" name="action_Global_Death_rate_empty"/>
+  <actions xsi:type="generator:Text" name="utter_bot_notahuman_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="No, I am Tiara. A Chatbot designed to help you with Coronavirus (Covid -19) queries."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_antibiotics_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_Global_Count_empty"/>
+  <actions xsi:type="generator:Text" name="utter_vaccine_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care. Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_fine_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="So how can I help you?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_Corona_free_country_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="List of nations that have been declared as COVID-19 free :- &#xA;1. New Zealand on 8 June 2020 &#xA;2. Tanzania on 7 June 2020 &#xA;3. Vatican on 6 June 2020 &#xA;4. Fiji on 1st week of June 2020 &#xA;5. Montenegro on 24 May 2020 &#xA;6. St Kitts and Nevis on 19 May 2020 &#xA;7. Seychelles on 18 May 2020 &#xA;8. Timor-Leste on 15 May 2020 &#xA;9. Papua New Guinea on 4 May 2020"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_safe_to_travel_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The government has asked people to avoid public transport if at all possible to help general public maintain distance with limited capacity, and keep the public transport for those who need it most. If you need to travel by Indian National Rail or public buses please try to travel Off-Peak, keep a 2-metre distance from others, use a face covering, and carry hand sanitiser or wash your hands.&#xA;In turn, Indian Railway and Public Bus Transport companies will do everything possible to keep passengers safe, including :-&#xA;1. More frequent and thorough cleaning than normal on trains, buses and at stations or stops. &#xA;2. Giving clear safety guidance on journeys, and &#xA;3. Make extra train and bus carriages available whenever possible.&#xA;If your journey is necessary and you need to travel by Indian National Rail, please remember that railway stations may be busy and leave plenty of time for your journey."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_coronavirus_family_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS)."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_State_death_rate_empty"/>
+  <actions xsi:type="generator:Text" name="utter_sars_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="No. The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_high_risk_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Older adults and people of any age who have serious underlying medical conditions may be at higher risk for more serious complications from COVID-19. These people who may be at higher risk of getting very sick from this illness, includes; Older adults, People who have serious underlying medical conditions like... Heart disease, Diabetes, Lung disease."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_ok_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="So, is there anything else that I can help you with."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_diff_isolation_quarantine_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Quarantine means restricting activities or separating people who are not ill themselves but may have been exposed to COVID-19. The goal is to prevent spread of the disease at the time when people just develop symptoms. Whereas isolation means separating people who are ill with symptoms of COVID-19 and may be infectious to prevent the spread of the disease."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_corona_for_life_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Most of the people who catch COVID-19 can recover and eliminate the virus from their bodies. If you catch the disease, make sure you treat your symptoms. If you have cough, fever, and difficulty breathing, seek medical care early - but call your health facility by telephone first. Most patients recover thanks to supportive care."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_plasma_therapy_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Plasma therapy involves using blood plasma from people who have recovered from COVID-19 and infusing it into patients who currently have the disease. Plasma is the liquid portion of blood that remains when all red and white blood cells and platelets have been removed. It was over a hundred years ago that Emil Behring was awarded the first Nobel prize for physiology and medicine for his work demonstrating that plasma could be used to treat diphtheria. &#xA;We now know that the key component of plasma for treating infections is antibodies. Antibodies are Y-shaped proteins that are highly specific for whichever infection a person has previously encountered. They are produced in vast quantities by B cells of our immune system in order to bind to the invading virus and then target it for destruction. The concept of vaccination relies on stimulating antibody production to infections not yet met. In contrast, using convalescent plasma involves the transfer of antibodies from donors who have already mounted an immune response, thus offering immediate (but transient) protection to the recipient. &#xA;Worldwide there are over 60 clinical trials actively recruiting COVID-19 patients to study the effect of convalescent plasma. Patients are typically given about 500ml plasma intravenously, and their progress is then carefully monitored. Many studies are using plasma from non-infected patients as the placebo arm of the trial, to ensure that any benefits identified are indeed specific for SARS-CoV-2 antibodies."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_what_name_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My name is Tiara."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_how_safe_cloth_mask_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Homemade masks offer LESSER protection than surgical or respirator masks. However, as the WHO guidelines read, they can help a person keep the face area clean and prevent the spread of nasty germs and other contagious viruses. Sanitization and disinfecting are crucial steps which can prevent and stop the spread of coronavirus. Cloth and sponge masks filter out about 50% of bacteria and dust pollutants."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_medicines_therapies_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. We does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. We will continue to provide updated information as soon as clinical findings are available."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_warm_weather_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It is not yet known whether weather and temperature impact the spread of COVID-19. Some other viruses, like the common cold and flu, spread more during cold weather months but that does not mean it is impossible to become sick with these viruses during other months.  At this time, it is not known whether the spread of COVID-19 will decrease when weather becomes warmer.  There is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_what_animals_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="We don&#x2019;t know for sure which animals can be infected with the virus that causes COVID-19. WHO is aware of a small number of pets, including dogs and cats, reported to be infected with the virus that causes COVID-19, mostly after close contact with people with COVID-19. A tiger at a zoo in New York has also tested positive for the virus.&#xA;Recent research shows that ferrets, cats, and golden Syrian hamsters can be experimentally infected with the virus and can spread the infection to other animals of the same species in laboratory settings. Pigs, chickens, and ducks did not become infected or spread the infection based on results from these studies. Data from one study suggested dogs are not as likely to become infected with the virus as cats and ferrets. These findings were based on a small number of animals, and do not show whether animals can spread infection to people.&#xA;At this time, there is no evidence that animals play a significant role in spreading the virus that causes COVID-19. Based on the limited information available to date, the risk of animals spreading COVID-19 to people is considered to be low. Further studies are needed to understand if and how different animals could be affected by the virus that causes COVID-19 and the role animals may play in the spread of COVID-19."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_5g_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Viruses cannot travel on radio waves/mobile networks. COVID-19 is spreading in many countries that do not have 5G mobile networks. COVID-19 is spread through respiratory droplets when an infected person coughs, sneezes or speaks. People can also be infected by touching a contaminated surface and then their eyes, mouth or nose."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_hydroxychloroquine_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="While several drug trials are ongoing, there is currently no proof that hydroxychloroquine or any other drug can cure or prevent COVID-19. The misuse of hydroxychloroquine can cause serious side effects and illness and even lead to death. WHO is coordinating efforts to develop and evaluate medicines to treat COVID-19."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_least_affected_states_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Andaman and Nicobar Islands is the least affected Union Territory whereas Meghalaya is the least affected State of India."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_who_developed_you_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am created and managed by a Team of Three Members : Shubham Kaurav, Alka Patel and Sunay Kumar Jain under the guidance of Mr. Mukesh Azad (Asst. Professor, Department of Computer Science, SATI, Vidisha)."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_world_deathrate_empty"/>
+  <actions xsi:type="generator:Empty" name="action_State_Recovery_rate_empty"/>
+  <actions xsi:type="generator:Empty" name="DefaultEmptyAction"/>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.19 //@actions.68"/>
+  </flows>
+  <flows intent="//@intents.5">
+    <target actions="//@actions.2">
+      <outcoming intent="//@intents.8">
+        <target actions="//@actions.60">
+          <outcoming intent="//@intents.3">
+            <target actions="//@actions.19">
+              <outcoming intent="//@intents.4">
+                <target actions="//@actions.42"/>
+              </outcoming>
+            </target>
+          </outcoming>
+        </target>
+      </outcoming>
+    </target>
+  </flows>
+  <flows intent="//@intents.12">
+    <target actions="//@actions.22 //@actions.53 //@actions.58 //@actions.36 //@actions.33 //@actions.7 //@actions.43 //@actions.59 //@actions.8 //@actions.37 //@actions.45 //@actions.51 //@actions.10 //@actions.17 //@actions.18 //@actions.14 //@actions.39 //@actions.34 //@actions.24 //@actions.48 //@actions.46 //@actions.61 //@actions.25 //@actions.29 //@actions.63 //@actions.30 //@actions.62 //@actions.55 //@actions.65 //@actions.66 //@actions.50 //@actions.41 //@actions.0 //@actions.67 //@actions.40 //@actions.16 //@actions.38 //@actions.13 //@actions.47 //@actions.11 //@actions.49 //@actions.9 //@actions.56 //@actions.1 //@actions.64 //@actions.6 //@actions.20 //@actions.54 //@actions.26 //@actions.28 //@actions.23 //@actions.35 //@actions.15 //@actions.21 //@actions.44">
+      <outcoming intent="//@intents.64">
+        <target actions="//@actions.15 //@actions.21 //@actions.50">
+          <outcoming intent="//@intents.64">
+            <target actions="//@actions.15 //@actions.21 //@actions.67">
+              <outcoming intent="//@intents.64">
+                <target actions="//@actions.15 //@actions.21 //@actions.40">
+                  <outcoming intent="//@intents.65">
+                    <target actions="//@actions.21 //@actions.0">
+                      <outcoming intent="//@intents.41">
+                        <target actions="//@actions.66">
+                          <outcoming intent="//@intents.43">
+                            <target actions="//@actions.41">
+                              <outcoming intent="//@intents.42">
+                                <target actions="//@actions.50">
+                                  <outcoming intent="//@intents.40">
+                                    <target actions="//@actions.65">
+                                      <outcoming intent="//@intents.44">
+                                        <target actions="//@actions.0">
+                                          <outcoming intent="//@intents.41">
+                                            <target actions="//@actions.66">
+                                              <outcoming intent="//@intents.11">
+                                                <target actions="//@actions.57">
+                                                  <outcoming intent="//@intents.4">
+                                                    <target actions="//@actions.42">
+                                                      <outcoming intent="//@intents.57">
+                                                        <target actions="//@actions.6">
+                                                          <outcoming intent="//@intents.57">
+                                                            <target actions="//@actions.6">
+                                                              <outcoming intent="//@intents.47">
+                                                                <target actions="//@actions.16">
+                                                                  <outcoming intent="//@intents.50">
+                                                                    <target actions="//@actions.47">
+                                                                      <outcoming intent="//@intents.56">
+                                                                        <target actions="//@actions.64">
+                                                                          <outcoming intent="//@intents.58">
+                                                                            <target actions="//@actions.20">
+                                                                              <outcoming intent="//@intents.61">
+                                                                                <target actions="//@actions.28">
+                                                                                  <outcoming intent="//@intents.1">
+                                                                                    <target actions="//@actions.27">
+                                                                                      <outcoming intent="//@intents.60">
+                                                                                        <target actions="//@actions.26">
+                                                                                          <outcoming intent="//@intents.64">
+                                                                                            <target actions="//@actions.15">
+                                                                                              <outcoming intent="//@intents.41">
+                                                                                                <target actions="//@actions.66">
+                                                                                                  <outcoming intent="//@intents.64">
+                                                                                                    <target actions="//@actions.15">
+                                                                                                      <outcoming intent="//@intents.41">
+                                                                                                        <target actions="//@actions.66">
+                                                                                                          <outcoming intent="//@intents.44">
+                                                                                                            <target actions="//@actions.0">
+                                                                                                              <outcoming intent="//@intents.42">
+                                                                                                                <target actions="//@actions.50">
+                                                                                                                  <outcoming intent="//@intents.45">
+                                                                                                                    <target actions="//@actions.67">
+                                                                                                                      <outcoming intent="//@intents.65">
+                                                                                                                        <target actions="//@actions.21"/>
+                                                                                                                      </outcoming>
+                                                                                                                    </target>
+                                                                                                                  </outcoming>
+                                                                                                                </target>
+                                                                                                              </outcoming>
+                                                                                                            </target>
+                                                                                                          </outcoming>
+                                                                                                        </target>
+                                                                                                      </outcoming>
+                                                                                                    </target>
+                                                                                                  </outcoming>
+                                                                                                </target>
+                                                                                              </outcoming>
+                                                                                            </target>
+                                                                                          </outcoming>
+                                                                                        </target>
+                                                                                      </outcoming>
+                                                                                    </target>
+                                                                                  </outcoming>
+                                                                                </target>
+                                                                              </outcoming>
+                                                                            </target>
+                                                                          </outcoming>
+                                                                        </target>
+                                                                      </outcoming>
+                                                                    </target>
+                                                                  </outcoming>
+                                                                </target>
+                                                              </outcoming>
+                                                            </target>
+                                                          </outcoming>
+                                                        </target>
+                                                      </outcoming>
+                                                    </target>
+                                                  </outcoming>
+                                                </target>
+                                              </outcoming>
+                                            </target>
+                                          </outcoming>
+                                        </target>
+                                      </outcoming>
+                                    </target>
+                                  </outcoming>
+                                </target>
+                              </outcoming>
+                            </target>
+                          </outcoming>
+                        </target>
+                      </outcoming>
+                    </target>
+                  </outcoming>
+                </target>
+              </outcoming>
+            </target>
+          </outcoming>
+        </target>
+      </outcoming>
+      <outcoming intent="//@intents.4">
+        <target actions="//@actions.42">
+          <outcoming intent="//@intents.3">
+            <target actions="//@actions.19">
+              <outcoming intent="//@intents.25">
+                <target actions="//@actions.17">
+                  <outcoming intent="//@intents.24">
+                    <target actions="//@actions.10">
+                      <outcoming intent="//@intents.50">
+                        <target actions="//@actions.47">
+                          <outcoming intent="//@intents.58">
+                            <target actions="//@actions.20">
+                              <outcoming intent="//@intents.65">
+                                <target actions="//@actions.21">
+                                  <outcoming intent="//@intents.64">
+                                    <target actions="//@actions.15">
+                                      <outcoming intent="//@intents.64">
+                                        <target actions="//@actions.15">
+                                          <outcoming intent="//@intents.64">
+                                            <target actions="//@actions.15">
+                                              <outcoming intent="//@intents.41">
+                                                <target actions="//@actions.66">
+                                                  <outcoming intent="//@intents.44">
+                                                    <target actions="//@actions.0">
+                                                      <outcoming intent="//@intents.44">
+                                                        <target actions="//@actions.0">
+                                                          <outcoming intent="//@intents.41">
+                                                            <target actions="//@actions.66">
+                                                              <outcoming intent="//@intents.54">
+                                                                <target actions="//@actions.56">
+                                                                  <outcoming intent="//@intents.60">
+                                                                    <target actions="//@actions.26">
+                                                                      <outcoming intent="//@intents.15">
+                                                                        <target actions="//@actions.36">
+                                                                          <outcoming intent="//@intents.53">
+                                                                            <target actions="//@actions.9">
+                                                                              <outcoming intent="//@intents.31">
+                                                                                <target actions="//@actions.48">
+                                                                                  <outcoming intent="//@intents.63">
+                                                                                    <target actions="//@actions.35">
+                                                                                      <outcoming intent="//@intents.62">
+                                                                                        <target actions="//@actions.23"/>
+                                                                                      </outcoming>
+                                                                                    </target>
+                                                                                  </outcoming>
+                                                                                </target>
+                                                                              </outcoming>
+                                                                            </target>
+                                                                          </outcoming>
+                                                                        </target>
+                                                                      </outcoming>
+                                                                    </target>
+                                                                  </outcoming>
+                                                                </target>
+                                                              </outcoming>
+                                                            </target>
+                                                          </outcoming>
+                                                        </target>
+                                                      </outcoming>
+                                                    </target>
+                                                  </outcoming>
+                                                </target>
+                                              </outcoming>
+                                            </target>
+                                          </outcoming>
+                                        </target>
+                                      </outcoming>
+                                    </target>
+                                  </outcoming>
+                                </target>
+                              </outcoming>
+                            </target>
+                          </outcoming>
+                        </target>
+                      </outcoming>
+                    </target>
+                  </outcoming>
+                </target>
+              </outcoming>
+            </target>
+          </outcoming>
+        </target>
+      </outcoming>
+    </target>
+  </flows>
+  <flows intent="//@intents.2">
+    <target actions="//@actions.31"/>
+  </flows>
+  <flows intent="//@intents.6">
+    <target actions="//@actions.32"/>
+  </flows>
+  <flows intent="//@intents.7">
+    <target actions="//@actions.12"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.60"/>
+  </flows>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.52"/>
+  </flows>
+  <flows intent="//@intents.10">
+    <target actions="//@actions.3"/>
+  </flows>
+  <flows intent="//@intents.11">
+    <target actions="//@actions.57"/>
+  </flows>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.4">
+      <outcoming intent="//@intents.5">
+        <target actions="//@actions.2">
+          <outcoming intent="//@intents.8">
+            <target actions="//@actions.60"/>
+          </outcoming>
+          <outcoming intent="//@intents.10">
+            <target actions="//@actions.3">
+              <outcoming intent="//@intents.8">
+                <target actions="//@actions.60"/>
+              </outcoming>
+            </target>
+          </outcoming>
+          <outcoming intent="//@intents.6">
+            <target actions="//@actions.32">
+              <outcoming intent="//@intents.8">
+                <target actions="//@actions.60">
+                  <outcoming intent="//@intents.7">
+                    <target actions="//@actions.12">
+                      <outcoming intent="//@intents.65">
+                        <target actions="//@actions.21">
+                          <outcoming intent="//@intents.65">
+                            <target actions="//@actions.21">
+                              <outcoming intent="//@intents.65">
+                                <target actions="//@actions.21">
+                                  <outcoming intent="//@intents.5">
+                                    <target actions="//@actions.21"/>
+                                  </outcoming>
+                                </target>
+                              </outcoming>
+                            </target>
+                          </outcoming>
+                        </target>
+                      </outcoming>
+                    </target>
+                  </outcoming>
+                </target>
+              </outcoming>
+            </target>
+          </outcoming>
+          <outcoming intent="//@intents.65">
+            <target actions="//@actions.21">
+              <outcoming intent="//@intents.65">
+                <target actions="//@actions.21"/>
+              </outcoming>
+            </target>
+          </outcoming>
+        </target>
+      </outcoming>
+      <outcoming intent="//@intents.65">
+        <target actions="//@actions.21 //@actions.33 //@actions.46 //@actions.18 //@actions.15 //@actions.65 //@actions.3 //@actions.5">
+          <outcoming intent="//@intents.65">
+            <target actions="//@actions.21 //@actions.36 //@actions.17 //@actions.15 //@actions.44 //@actions.3 //@actions.31">
+              <outcoming intent="//@intents.5">
+                <target actions="//@actions.21">
+                  <outcoming intent="//@intents.3">
+                    <target actions="//@actions.21">
+                      <outcoming intent="//@intents.10">
+                        <target actions="//@actions.3">
+                          <outcoming intent="//@intents.3">
+                            <target actions="//@actions.19"/>
+                          </outcoming>
+                        </target>
+                      </outcoming>
+                    </target>
+                  </outcoming>
+                </target>
+              </outcoming>
+              <outcoming intent="//@intents.6">
+                <target actions="//@actions.32">
+                  <outcoming intent="//@intents.12">
+                    <target actions="//@actions.22">
+                      <outcoming intent="//@intents.7">
+                        <target actions="//@actions.12">
+                          <outcoming intent="//@intents.15">
+                            <target actions="//@actions.36">
+                              <outcoming intent="//@intents.19">
+                                <target actions="//@actions.59">
+                                  <outcoming intent="//@intents.18">
+                                    <target actions="//@actions.43">
+                                      <outcoming intent="//@intents.17">
+                                        <target actions="//@actions.7"/>
+                                      </outcoming>
+                                    </target>
+                                  </outcoming>
+                                </target>
+                              </outcoming>
+                            </target>
+                          </outcoming>
+                        </target>
+                      </outcoming>
+                    </target>
+                  </outcoming>
+                </target>
+              </outcoming>
+              <outcoming intent="//@intents.65">
+                <target actions="//@actions.21 //@actions.10 //@actions.44 //@actions.41">
+                  <outcoming intent="//@intents.65">
+                    <target actions="//@actions.21 //@actions.51 //@actions.40">
+                      <outcoming intent="//@intents.10">
+                        <target actions="//@actions.3"/>
+                      </outcoming>
+                      <outcoming intent="//@intents.22">
+                        <target actions="//@actions.45 //@actions.21 //@actions.67">
+                          <outcoming intent="//@intents.21">
+                            <target actions="//@actions.37 //@actions.21 //@actions.67">
+                              <outcoming intent="//@intents.20">
+                                <target actions="//@actions.8 //@actions.0">
+                                  <outcoming intent="//@intents.30">
+                                    <target actions="//@actions.24 //@actions.0">
+                                      <outcoming intent="//@intents.29">
+                                        <target actions="//@actions.34 //@actions.67">
+                                          <outcoming intent="//@intents.28">
+                                            <target actions="//@actions.39 //@actions.67">
+                                              <outcoming intent="//@intents.27">
+                                                <target actions="//@actions.14 //@actions.67">
+                                                  <outcoming intent="//@intents.65">
+                                                    <target actions="//@actions.21 //@actions.50">
+                                                      <outcoming intent="//@intents.65">
+                                                        <target actions="//@actions.21 //@actions.67">
+                                                          <outcoming intent="//@intents.18">
+                                                            <target actions="//@actions.43 //@actions.0">
+                                                              <outcoming intent="//@intents.17">
+                                                                <target actions="//@actions.7 //@actions.0">
+                                                                  <outcoming intent="//@intents.7">
+                                                                    <target actions="//@actions.12">
+                                                                      <outcoming intent="//@intents.12">
+                                                                        <target actions="//@actions.22">
+                                                                          <outcoming intent="//@intents.6">
+                                                                            <target actions="//@actions.32">
+                                                                              <outcoming intent="//@intents.8">
+                                                                                <target actions="//@actions.60">
+                                                                                  <outcoming intent="//@intents.9">
+                                                                                    <target actions="//@actions.52">
+                                                                                      <outcoming intent="//@intents.11">
+                                                                                        <target actions="//@actions.57">
+                                                                                          <outcoming intent="//@intents.3">
+                                                                                            <target actions="//@actions.19">
+                                                                                              <outcoming intent="//@intents.34">
+                                                                                                <target actions="//@actions.25">
+                                                                                                  <outcoming intent="//@intents.33">
+                                                                                                    <target actions="//@actions.61">
+                                                                                                      <outcoming intent="//@intents.19">
+                                                                                                        <target actions="//@actions.59">
+                                                                                                          <outcoming intent="//@intents.15">
+                                                                                                            <target actions="//@actions.36">
+                                                                                                              <outcoming intent="//@intents.16">
+                                                                                                                <target actions="//@actions.33"/>
+                                                                                                              </outcoming>
+                                                                                                            </target>
+                                                                                                          </outcoming>
+                                                                                                        </target>
+                                                                                                      </outcoming>
+                                                                                                    </target>
+                                                                                                  </outcoming>
+                                                                                                </target>
+                                                                                              </outcoming>
+                                                                                            </target>
+                                                                                          </outcoming>
+                                                                                        </target>
+                                                                                      </outcoming>
+                                                                                    </target>
+                                                                                  </outcoming>
+                                                                                </target>
+                                                                              </outcoming>
+                                                                            </target>
+                                                                          </outcoming>
+                                                                        </target>
+                                                                      </outcoming>
+                                                                    </target>
+                                                                  </outcoming>
+                                                                  <outcoming intent="//@intents.64">
+                                                                    <target actions="//@actions.15"/>
+                                                                  </outcoming>
+                                                                </target>
+                                                              </outcoming>
+                                                            </target>
+                                                          </outcoming>
+                                                        </target>
+                                                      </outcoming>
+                                                    </target>
+                                                  </outcoming>
+                                                </target>
+                                              </outcoming>
+                                            </target>
+                                          </outcoming>
+                                        </target>
+                                      </outcoming>
+                                    </target>
+                                  </outcoming>
+                                </target>
+                              </outcoming>
+                              <outcoming intent="//@intents.10">
+                                <target actions="//@actions.3"/>
+                              </outcoming>
+                            </target>
+                          </outcoming>
+                        </target>
+                      </outcoming>
+                    </target>
+                  </outcoming>
+                </target>
+              </outcoming>
+            </target>
+          </outcoming>
+          <outcoming intent="//@intents.2">
+            <target actions="//@actions.31"/>
+          </outcoming>
+        </target>
+      </outcoming>
+    </target>
+  </flows>
+  <flows intent="//@intents.1">
+    <target actions="//@actions.27"/>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>
