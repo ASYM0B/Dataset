@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" name="ISU-Jovo-v2">
+  <intents name="ISUTechProblemsIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I'm having computer problems"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="my laptop is not working"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="where can i get tech support"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I need tech support"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="DeclinePinIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="reset"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUMensTennisIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="men's tennis"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUBaseballIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="baseball"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="PinCodeIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.4/@parameters.0" textReference="pin"/>
+      </inputs>
+    </inputs>
+    <parameters name="pin"/>
+  </intents>
+  <intents name="YesIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Yes"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="yes"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUSoftballIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="softball"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISURedbirdCardIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="What is my redbird card balance"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how much is on my redbird card"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="How much money is on my redbird card"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="redbird card balance"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="my redbird card balance"/>
+      </inputs>
+    </inputs>
+    <parameters name="pin"/>
+  </intents>
+  <intents name="ISUMensGolfIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="men's golf"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="Default Welcome Intent"/>
+  <intents name="ISUEventsIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="what is going on today"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="FinancialAidIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="financial aid"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="contact financial aid"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how can I contact financial aid"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUFactIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about i.s.u"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="give me a fact about i.s.u"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="give me a fact"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me something I don't know"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me a fact"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUITHelpIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I.T Help"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="i.t help"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about i.t help"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how do i contact i.t help"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUResNetIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Res Net"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="resnet"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about res net"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how do i contact res net"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUSportsIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about sports"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about sports "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.15/@parameters.0" textReference="period"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about i.s.u sports"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about i.s.u sports "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.15/@parameters.0" textReference="period"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about Illinois State Sports"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about Illinois State Sports "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.15/@parameters.0" textReference="period"/>
+      </inputs>
+    </inputs>
+    <parameters name="period" entity="//@entities.0"/>
+  </intents>
+  <intents name="NoIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="No"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="no"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="FinancialAidAdvisorIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="financial aid advisor"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="Who is my finanical aid advisor"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUTechZoneIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tech zone"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="techzone"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="tell me about tech zone"/>
+      </inputs>
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="how do i contact tech zone"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ConfirmPinIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="correct"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ISUStudyIntent">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:TrainingPhrase">
+        <tokens xsi:type="generator:Literal" text="I want to study for "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.20/@parameters.0" textReference="duration"/>
+      </inputs>
+    </inputs>
+    <parameters name="duration"/>
+  </intents>
+  <intents name="Default Fallback Intent" fallbackIntent="true"/>
+  <entities name="period">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:SimpleInput" name="this week">
+        <values>this week</values>
+      </inputs>
+      <inputs xsi:type="generator:SimpleInput" name="today">
+        <values>today</values>
+      </inputs>
+    </inputs>
+  </entities>
+  <actions xsi:type="generator:HTTPRequest" name="HttpRequest" URL="https://webhook.jovo.cloud/a9ebbeb5-ea6a-44a1-9ebf-27afebe1291a" method="POST"/>
+  <actions xsi:type="generator:HTTPResponse" name="HttpResponse" HTTPRequest="//@actions.0">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:HTTPRequestToke"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.1">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.2">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.4">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.5">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.6">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.7">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.10">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.11">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.12">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.13">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.14">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.15">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.16">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.17">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.18">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.19">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.20">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <flows intent="//@intents.21">
+    <target actions="//@actions.0 //@actions.1"/>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>
