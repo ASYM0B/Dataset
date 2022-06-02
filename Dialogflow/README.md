@@ -1,6 +1,6 @@
 # Dialogflow chatbots
 
-This folder contains 117 the Dialogflow chatbots. 
+This folder contains 117 Dialogflow chatbots. 
 * Prebuild folder contains the predefined chatbots, which are provided by [Dialogflow tool](https://dialogflow.cloud.google.com/).
 * Kommunicate folder contains the predefined chatbots from [Kommunicate web page](https://docs.kommunicate.io/docs/bot-samples)
 * Github folder contains the open source chatbots from Github. Inside the folder, there is a table with the exact location for each chatbot in Dialogflow format. 
