@@ -14,4 +14,4 @@ The repository contains a dataset used in evaluations of the ASYM0B tool of 259 
 
 The chatbots are divided into two folders, Dialogflow and Rasa, depending on the technology to which the chatbot belongs. The folders also contain the source of each chatbot and a table with the results of the evaluation performed with ASYM0B. 
 
-Finally, in this [link](https://github.com/ASYM0B/tool) there are ASYM0B environments, which can be used using these chatbots. 
+Finally, in this [link](https://github.com/ASYM0B/tool) there are ASYM0B environments, which can be used with these chatbots files. 
