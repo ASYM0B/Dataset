@@ -142,8 +142,3 @@ Here there are the sources of each open source chatbot, with the corresponding l
 | Github | WeatherBot                         | https://github.com/Syzygianinfern0/WeatherBot                                                  |
 | Github | Weather-Chatbot                    | https://github.com/gurugaurav/Weather-Chatbot                                                  |
 | Github | yassinelamarti                     | https://github.com/yassinelamarti/test                                                         |
-|        |                                    |                                                                                                |
-|        |                                    |                                                                                                |
-|        |                                    |                                                                                                |
-|        |                                    |                                                                                                |
-|        |                                    |                                                                                                |
