@@ -5,7 +5,7 @@ This folder contains 142 Rasa chatbots conform to CONGA model.
 * Github folder contains the open source chatbots from Github. Inside the folder, there is a table with the exact location for each chatbot in Rasa format. 
 
 # Evaluation Result
- Here below, there is a table with the results of the evaluation of the Rasa chatbots. This table is also found in the Rasa_results.xlsx document.
+ Here below, there is a table with the results of the evaluation of the Rasa chatbots. This table is also found in the Rasa_results.xlsx document. The file RasawOutliers.txt contains the chatbots with an outlier value for each metric.
  | Source     | Name                               | INT | ENT | FLOW | PATH |  CNF  | SNT1 | SNT2 | SNT3 | OPRE1 | OPRE2 | OPRE3 |   TPI  | WPTP | VPTP | PPTP |  WPOP | VPOP |  CPOP  | READ | LPE | SPL | WL | FACT | FPATH |  CL |
 |------------|------------------------------------|:---:|:---:|:----:|:----:|:-----:|:----:|:----:|:----:|:-----:|:-----:|:-----:|:------:|:----:|:----:|:----:|:-----:|:----:|:------:|:----:|:---:|:---:|:--:|:----:|:-----:|:---:|
 | Predefined | concertbot                         |  6  |  0  |   1  |   1  |   0   |  25  |  75  |   0  |   0   |   62  |  120  |    0   |   0  |   0  |   0  |  2,25 | 0,25 |  12,25 |   1  |  0  |  0  |  0 |  3,5 |   1   |  2  |
