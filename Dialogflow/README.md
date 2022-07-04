@@ -6,7 +6,7 @@ This folder contains 117 Dialogflow chatbots conform to CONGA model.
 * Github folder contains the open source chatbots from Github. Inside the folder, there is a table with the exact location for each chatbot in Dialogflow format. 
 
 # Evaluation Result
- Here below, there is a table with the results of the evaluation of the dialogflow chatbots. This table is also found in the Dialogflow_results.xlsx document.
+ Here below, there is a table with the results of the evaluation of the dialogflow chatbots. This table is also found in the Dialogflow_results.xlsx document. The file DialogflowOutliers.txt contains the chatbots with an outlier value for each metric.
 
 | Source      | Name                               | INT | ENT | FLOW | PATH | CNF  | SNT1 | SNT2 | SNT3 | OPRE1 | OPRE2 | OPRE3 | TPI   | WPTP | VPTP | PPTP | WPOP  | VPOP | CPOP   | READ | LPE     | SPL  | WL    | FACT | FPATH | CL |
 |-------------|------------------------------------|-----|-----|------|------|------|------|------|------|-------|-------|-------|-------|------|------|------|-------|------|--------|------|---------|------|-------|------|-------|----|
