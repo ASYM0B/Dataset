@@ -1,0 +1,238 @@
+INT Outliers threshold: [-9.5, 26.5]
+Name                                    value
+------------------------------------------------------------
+googleChallenge                         32
+kommunicate-support-bot-sample          71
+iLearn                                  89
+Car                                     77
+App-Management                          37
+MysteryAnimal                           62
+
+ENT Outliers threshold: [-4.5, 7.5]
+Name                                    value
+------------------------------------------------------------
+googleChallenge                         34
+HR-Bot                                  15
+BankPortal                              8
+kube-django-ng                          8
+Coffee-Shop                             8
+Dining-Out                              16
+libsample-advanced                      10
+Food-Delivery                           11
+Car                                     14
+MysteryAnimal                           37
+
+FLOW Outliers threshold: [-7.5, 20.5]
+Name                                    value
+------------------------------------------------------------
+googleChallenge                         32
+kommunicate-support-bot-sample          56
+iLearn                                  89
+smalltalk-manychat                      25
+smalltalk-chatfuel                      25
+ISU-Jovo-v2                             22
+Car                                     61
+App-Management                          37
+MysteryAnimal                           62
+
+PATH Outliers threshold: [-8.0, 24.0]
+Name                                    value
+------------------------------------------------------------
+googleChallenge                         32
+HR-Bot                                  28
+kommunicate-support-bot-sample          75
+iLearn                                  89
+smalltalk-manychat                      25
+smalltalk-chatfuel                      25
+Car                                     117
+App-Management                          37
+MysteryAnimal                           62
+
+CNF Outliers threshold: [-45.0, 75.0]
+Name                                    value
+------------------------------------------------------------
+Date                                    84
+googleChallenge                         664
+HR-Bot                                  777
+kommunicate-support-bot-sample          305
+keijiban                                108
+BankPortal                              258
+kube-django-ng                          258
+enoreese                                104
+Coffee-Shop                             278
+iLearn                                  1599
+Food_Ordering_Chatbot                   91
+Dining-Out                              83
+escaperoom                              87
+smalltalk-manychat                      751
+smalltalk-chatfuel                      751
+beta                                    86
+Agent-Name                              254
+Car                                     1606
+App-Management                          734
+MysteryAnimal                           517
+
+SNT1 Outliers threshold: [-16.5, 27.5]
+Name                                    value
+------------------------------------------------------------
+BikeShop                                38
+
+SNT2 Outliers threshold: [-109.5, 182.5]
+Name                                    value
+------------------------------------------------------------
+
+SNT3 Outliers threshold: [-37.5, 62.5]
+Name                                    value
+------------------------------------------------------------
+dialogflow-ssml                         100
+dialogflow-name-psychic                 63
+dialogflow-google-sign-in               100
+
+OPRE1 Outliers threshold: [-84.0, 140.0]
+Name                                    value
+------------------------------------------------------------
+
+OPRE2 Outliers threshold: [-126.0, 210.0]
+Name                                    value
+------------------------------------------------------------
+
+OPRE3 Outliers threshold: [-163.5, 272.5]
+Name                                    value
+------------------------------------------------------------
+
+TPI Outliers threshold: [-7.83, 20.17]
+Name                                    value
+------------------------------------------------------------
+HR-Bot                                  22.0
+defaults-chatfuel                       50.0
+defaults-manychat                       50.0
+Dining-Out                              94.67
+smalltalk-manychat                      50.48
+smalltalk-chatfuel                      50.48
+HOTEL-BOOKING-AGENT2                    38.17
+Hotel-Booking                           50.67
+
+WPTP Outliers threshold: [-1.4449999999999996, 6.595]
+Name                                    value
+------------------------------------------------------------
+googleChallenge                         9.62
+Car                                     6.8
+
+VPTP Outliers threshold: [-0.52, 1.56]
+Name                                    value
+------------------------------------------------------------
+googleChallenge                         1.76
+
+PPTP Outliers threshold: [-1.2449999999999999, 2.0749999999999997]
+Name                                    value
+------------------------------------------------------------
+Dining-Out                              8.33
+Agent-Name                              2.22
+Hotel-Booking                           5.0
+Food-Delivery                           2.3
+Car                                     2.25
+MysteryAnimal                           2.27
+
+WPOP Outliers threshold: [-12.09, 20.15]
+Name                                    value
+------------------------------------------------------------
+Education_Chatbot                       22.89
+Insurance_Bot                           20.71
+HHandoffDAgent                          23.11
+HumanHandoffDemonstrationAgent          23.11
+
+VPOP Outliers threshold: [-3.0, 5.0]
+Name                                    value
+------------------------------------------------------------
+fulfillment-telephony                   5.33
+
+CPOP Outliers threshold: [-51.855000000000004, 86.42500000000001]
+Name                                    value
+------------------------------------------------------------
+Education_Chatbot                       125.56
+googleChallenge                         105.16
+Insurance_Bot                           104.86
+HHandoffDAgent                          99.44
+HumanHandoffDemonstrationAgent          99.44
+fulfillment-telephony                   94.0
+HR-Bot                                  88.66
+kommunicate-support-bot-sample          87.2
+
+READ Outliers threshold: [-9.0, 15.0]
+Name                                    value
+------------------------------------------------------------
+Education_Chatbot                       19
+googleChallenge                         16
+Insurance_Bot                           17
+HHandoffDAgent                          19
+HumanHandoffDemonstrationAgent          19
+fulfillment-telephony                   16
+
+LPE Outliers threshold: [-7.5, 12.5]
+Name                                    value
+------------------------------------------------------------
+Date                                    20.67
+Dining-Out                              1177.13
+escaperoom                              13.0
+smalltalk-manychat                      14.0
+ekgsBot                                 359.86
+smalltalk-chatfuel                      14.0
+libsample-advanced                      12.7
+Hotel-Booking                           251.57
+Food-Delivery                           301.45
+broken-sequence-jovo                    13.0
+Car                                     14.93
+App-Management                          28.33
+MysteryAnimal                           158.41
+
+SPL Outliers threshold: [-3.555, 5.925000000000001]
+Name                                    value
+------------------------------------------------------------
+Formats                                 7.13
+iotairblower                            6.83
+
+WL Outliers threshold: [-10.77, 17.95]
+Name                                    value
+------------------------------------------------------------
+ekgsBot                                 20.61
+gordobbot                               36.0
+
+FACT Outliers threshold: [-0.55, 3.8500000000000005]
+Name                                    value
+------------------------------------------------------------
+keijiban                                4.71
+HOTEL-BOOKING-AGENT2                    8.0
+fulfillment-multi-locale                4.0
+
+FPATH Outliers threshold: [1.0, 1.0]
+Name                                    value
+------------------------------------------------------------
+Insurance_Bot                           2.0
+fulfillment-telephony                   1.25
+HR-Bot                                  2.33
+kommunicate-support-bot-sample          1.34
+FAQ                                     1.6
+enoreese                                2.0
+Ecommerce_Bot                           2.0
+Meeting-Booking-Bot                     2.0
+Coffee-Shop                             2.0
+fulfillment-regex                       1.33
+Food_Ordering_Chatbot                   1.3
+Dining-Out                              3.5
+SDP-2018-Group-10                       1.13
+Talk-to-Spam-Robot                      1.13
+Job-Interview                           1.13
+savelee-demo                            1.13
+Food-Delivery                           1.17
+Device                                  1.5
+Car                                     1.92
+
+CL Outliers threshold: [-0.5, 3.5]
+Name                                    value
+------------------------------------------------------------
+Insurance_Bot                           4
+HR-Bot                                  5
+enoreese                                8
+Food_Ordering_Chatbot                   7
+savelee-demo                            4
+
