@@ -1,14 +1,15 @@
-INT Outliers threshold: [-9.5, 26.5]
+INT Outliers threshold: [2.0, 26.5]
 Name                                    value
 ------------------------------------------------------------
 googleChallenge                         32
 kommunicate-support-bot-sample          71
 iLearn                                  89
+ChronoGG                                1
 Car                                     77
 App-Management                          37
 MysteryAnimal                           62
 
-ENT Outliers threshold: [-4.5, 7.5]
+ENT Outliers threshold: [0.0, 7.5]
 Name                                    value
 ------------------------------------------------------------
 googleChallenge                         34
@@ -22,133 +23,589 @@ Food-Delivery                           11
 Car                                     14
 MysteryAnimal                           37
 
-FLOW Outliers threshold: [-7.5, 20.5]
+FLOW Outliers threshold: [1.6666666666666667, 20.5]
 Name                                    value
 ------------------------------------------------------------
 googleChallenge                         32
 kommunicate-support-bot-sample          56
 iLearn                                  89
+Buddy-G7                                1
 smalltalk-manychat                      25
 smalltalk-chatfuel                      25
 ISU-Jovo-v2                             22
+ChronoGG                                1
 Car                                     61
 App-Management                          37
 MysteryAnimal                           62
 
-PATH Outliers threshold: [-8.0, 24.0]
+PATH Outliers threshold: [1.6666666666666667, 24.0]
 Name                                    value
 ------------------------------------------------------------
 googleChallenge                         32
 HR-Bot                                  28
 kommunicate-support-bot-sample          75
 iLearn                                  89
+Buddy-G7                                1
 smalltalk-manychat                      25
 smalltalk-chatfuel                      25
+ChronoGG                                1
 Car                                     117
 App-Management                          37
 MysteryAnimal                           62
 
-CNF Outliers threshold: [-45.0, 75.0]
+CNF Outliers threshold: [1.0, 75.0]
 Name                                    value
 ------------------------------------------------------------
 Date                                    84
 googleChallenge                         664
+HHandoffDAgent                          0
+HumanHandoffDemonstrationAgent          0
 HR-Bot                                  777
 kommunicate-support-bot-sample          305
+Cheqin                                  0
+dialogflow-ssml                         0
 keijiban                                108
+dialogflow-silly-name-maker             0
 BankPortal                              258
 kube-django-ng                          258
 enoreese                                104
+defaults-chatfuel                       0
+defaults-manychat                       0
+dialogflow-name-psychic                 0
+Easter-Eggs                             0
+dialogflow-google-sign-in               0
+basic-slotfilling                       0
 Coffee-Shop                             278
+airportagent_savelee                    0
+airportagent                            0
+TPCarBot                                0
+Lead_Collection_Bot                     0
 iLearn                                  1599
 Food_Ordering_Chatbot                   91
 Dining-Out                              83
 escaperoom                              87
+AppointmentScheduler                    0
+iotairblower                            0
 smalltalk-manychat                      751
+stock-bot                               0
 smalltalk-chatfuel                      751
+malikasinger1                           0
 beta                                    86
 Agent-Name                              254
+dialogflow-updates                      0
+malaynayak                              0
+dialogflow-quotes                       0
+hackathon-group-10                      0
+hackathon-group-3                       0
+Iot_light                               0
+name-that-tune                          0
+fulfillment-multi-locale                0
+fulfillment-temperature-converter       0
+city-to-city                            0
+Jovo-sample                             0
+techcrunch-hack-2019                    0
+language-flashcards                     0
+Talk2ServiceNow                         0
+fulfillent-importer                     0
+ChronoGG                                0
+in-my-seats-jovo                        0
+Jovo-BusinessApp                        0
 Car                                     1606
 App-Management                          734
 MysteryAnimal                           517
 
-SNT1 Outliers threshold: [-16.5, 27.5]
+SNT1 Outliers threshold: [1.3333333333333333, 27.5]
 Name                                    value
 ------------------------------------------------------------
+game-clock                              0
+Date                                    0
+Cheqin                                  0
+Formats                                 0
+dialogflow-ssml                         0
+dialogflow-silly-name-maker             0
+jovo-skillrf                            0
 BikeShop                                38
+fullfilment-firestore                   1
+dialogflow-google-sign-in               0
+woman                                   1
+ha-austin                               0
+dialogflow-transaction                  1
+stock-bot                               1
+malikasinger1                           1
+Currency-Converter                      1
+libsample-advanced                      0
+Agent-Name                              1
+dialogflow-updates                      1
+News_Agent                              1
+dialogflow-conversation-components      1
+HOTEL-BOOKING-AGENT2                    1
+fulfillment-multi-locale                0
+fulfillment-temperature-converter       0
+city-to-city                            0
+Hotel-Booking                           0
+VoiceClues                              0
+Jovo-sample                             0
+techcrunch-hack-2019                    0
+dialogflow-interactive-canvas           0
+Food-Delivery                           0
+language-flashcards                     0
+wellness-tracker-jovo                   0
+Developer-Buddy                         0
+Talk2ServiceNow                         0
+broken-sequence-jovo                    0
+cookie-sales-skill                      0
+foodfinder                              0
+AlexaSkill-PAB                          0
+ISU-Jovo-v2                             0
+multimodal-food-apps                    0
+fulfillent-importer                     0
+voiceapplication-sonnar                 0
+Device                                  0
+ChronoGG                                0
+in-my-seats-jovo                        0
+Jovo-BusinessApp                        0
+Car                                     0
+App-Management                          0
+voicecommerce                           0
+Today-In-History                        0
+videogame-language-model                0
+MysteryAnimal                           0
+first-project-test                      0
 
-SNT2 Outliers threshold: [-109.5, 182.5]
+SNT2 Outliers threshold: [21.333333333333332, 182.5]
 Name                                    value
 ------------------------------------------------------------
+game-clock                              0
+Date                                    0
+Cheqin                                  0
+Formats                                 0
+dialogflow-ssml                         0
+jovo-skillrf                            0
+dialogflow-name-psychic                 15
+dialogflow-google-sign-in               0
+city-to-city                            0
+Hotel-Booking                           0
+VoiceClues                              0
+Jovo-sample                             0
+techcrunch-hack-2019                    0
+dialogflow-interactive-canvas           0
+Food-Delivery                           0
+language-flashcards                     0
+wellness-tracker-jovo                   0
+Developer-Buddy                         0
+Talk2ServiceNow                         0
+broken-sequence-jovo                    0
+cookie-sales-skill                      0
+foodfinder                              0
+AlexaSkill-PAB                          0
+ISU-Jovo-v2                             0
+multimodal-food-apps                    0
+fulfillent-importer                     0
+voiceapplication-sonnar                 0
+Device                                  0
+ChronoGG                                0
+in-my-seats-jovo                        0
+Jovo-BusinessApp                        0
+Car                                     0
+App-Management                          0
+voicecommerce                           0
+Today-In-History                        0
+videogame-language-model                0
+MysteryAnimal                           0
+first-project-test                      0
 
-SNT3 Outliers threshold: [-37.5, 62.5]
+SNT3 Outliers threshold: [5.666666666666667, 62.5]
 Name                                    value
 ------------------------------------------------------------
+game-clock                              0
+Date                                    0
+Cheqin                                  0
+Formats                                 0
 dialogflow-ssml                         100
+jovo-skillrf                            0
+defaults-chatfuel                       0
+defaults-manychat                       0
 dialogflow-name-psychic                 63
 dialogflow-google-sign-in               100
+your_song                               0
+libsample-advanced                      0
+fulfillment-multi-locale                0
+fulfillment-temperature-converter       0
+city-to-city                            0
+Hotel-Booking                           0
+VoiceClues                              0
+Jovo-sample                             0
+techcrunch-hack-2019                    0
+dialogflow-interactive-canvas           0
+Food-Delivery                           0
+language-flashcards                     0
+wellness-tracker-jovo                   0
+Developer-Buddy                         0
+Talk2ServiceNow                         0
+broken-sequence-jovo                    0
+cookie-sales-skill                      0
+foodfinder                              0
+AlexaSkill-PAB                          0
+ISU-Jovo-v2                             0
+multimodal-food-apps                    0
+fulfillent-importer                     0
+voiceapplication-sonnar                 0
+Device                                  0
+ChronoGG                                0
+in-my-seats-jovo                        0
+Jovo-BusinessApp                        0
+Car                                     0
+App-Management                          0
+voicecommerce                           0
+Today-In-History                        0
+videogame-language-model                0
+MysteryAnimal                           0
+first-project-test                      0
 
-OPRE1 Outliers threshold: [-84.0, 140.0]
+OPRE1 Outliers threshold: [4.666666666666667, 140.0]
 Name                                    value
 ------------------------------------------------------------
+game-clock                              0
+Date                                    0
+googleChallenge                         3
+Insurance_Bot                           0
+HR-Bot                                  0
+kommunicate-support-bot-sample          0
+Cheqin                                  0
+Formats                                 0
+keijiban                                0
+jovo-skillrf                            0
+Easter-Eggs                             0
+iLearn                                  0
+Buddy-G7                                0
+ha-austin                               0
+stock-bot                               0
+malikasinger1                           0
+libsample-advanced                      0
+savelee-demo                            0
+dialogflow-conversation-components      0
+dialogflow-quotes                       0
+hackathon-group-10                      0
+hackathon-group-3                       0
+knowledge-graph                         0
+Iot_light                               0
+HOTEL-BOOKING-AGENT2                    0
+name-that-tune                          0
+fulfillment-temperature-converter       0
+city-to-city                            0
+Hotel-Booking                           0
+VoiceClues                              0
+Jovo-sample                             0
+techcrunch-hack-2019                    0
+dialogflow-interactive-canvas           0
+Food-Delivery                           0
+language-flashcards                     0
+wellness-tracker-jovo                   0
+Developer-Buddy                         0
+Talk2ServiceNow                         0
+broken-sequence-jovo                    0
+cookie-sales-skill                      0
+foodfinder                              0
+AlexaSkill-PAB                          0
+ISU-Jovo-v2                             0
+multimodal-food-apps                    0
+fulfillent-importer                     0
+voiceapplication-sonnar                 0
+Device                                  0
+ChronoGG                                0
+in-my-seats-jovo                        0
+Jovo-BusinessApp                        0
+Car                                     0
+App-Management                          0
+voicecommerce                           0
+Today-In-History                        0
+videogame-language-model                0
+MysteryAnimal                           0
+first-project-test                      0
 
-OPRE2 Outliers threshold: [-126.0, 210.0]
+OPRE2 Outliers threshold: [25.0, 210.0]
 Name                                    value
 ------------------------------------------------------------
+game-clock                              0
+Date                                    0
+Cheqin                                  0
+Formats                                 0
+jovo-skillrf                            0
+fulfillment-temperature-converter       17
+city-to-city                            0
+Hotel-Booking                           0
+VoiceClues                              0
+Jovo-sample                             0
+techcrunch-hack-2019                    0
+dialogflow-interactive-canvas           0
+Food-Delivery                           0
+language-flashcards                     0
+wellness-tracker-jovo                   0
+Developer-Buddy                         0
+Talk2ServiceNow                         0
+broken-sequence-jovo                    0
+cookie-sales-skill                      0
+foodfinder                              0
+AlexaSkill-PAB                          0
+ISU-Jovo-v2                             0
+multimodal-food-apps                    0
+fulfillent-importer                     0
+voiceapplication-sonnar                 0
+Device                                  0
+ChronoGG                                0
+in-my-seats-jovo                        0
+Jovo-BusinessApp                        0
+Car                                     0
+App-Management                          0
+voicecommerce                           0
+Today-In-History                        0
+videogame-language-model                0
+MysteryAnimal                           0
+first-project-test                      0
 
-OPRE3 Outliers threshold: [-163.5, 272.5]
+OPRE3 Outliers threshold: [36.333333333333336, 272.5]
 Name                                    value
 ------------------------------------------------------------
+game-clock                              0
+Date                                    0
+Cheqin                                  0
+Formats                                 0
+jovo-skillrf                            0
+fulfillment-multi-locale                35
+fulfillment-temperature-converter       35
+city-to-city                            0
+Hotel-Booking                           0
+VoiceClues                              0
+Jovo-sample                             0
+techcrunch-hack-2019                    0
+dialogflow-interactive-canvas           0
+Food-Delivery                           0
+language-flashcards                     0
+wellness-tracker-jovo                   0
+Developer-Buddy                         0
+Talk2ServiceNow                         0
+broken-sequence-jovo                    0
+cookie-sales-skill                      0
+foodfinder                              0
+AlexaSkill-PAB                          0
+ISU-Jovo-v2                             0
+multimodal-food-apps                    0
+fulfillent-importer                     0
+voiceapplication-sonnar                 0
+Device                                  0
+ChronoGG                                0
+in-my-seats-jovo                        0
+Jovo-BusinessApp                        0
+Car                                     0
+App-Management                          0
+voicecommerce                           0
+Today-In-History                        0
+videogame-language-model                0
+MysteryAnimal                           0
+first-project-test                      0
 
-TPI Outliers threshold: [-7.83, 20.17]
+TPI Outliers threshold: [1.8533333333333333, 20.17]
 Name                                    value
 ------------------------------------------------------------
+HHandoffDAgent                          0.0
+HumanHandoffDemonstrationAgent          0.0
 HR-Bot                                  22.0
+Cheqin                                  1.0
+dialogflow-silly-name-maker             0.67
 defaults-chatfuel                       50.0
 defaults-manychat                       50.0
 Dining-Out                              94.67
 smalltalk-manychat                      50.48
+stock-bot                               0.5
 smalltalk-chatfuel                      50.48
+News_Agent                              1.67
+malaynayak                              1.8
+dialogflow-conversation-components      1.79
+dialogflow-quotes                       0.0
+hackathon-group-10                      0.33
+hackathon-group-3                       0.33
+Iot_light                               0.67
 HOTEL-BOOKING-AGENT2                    38.17
+fulfillment-multi-locale                1.0
 Hotel-Booking                           50.67
+Jovo-sample                             1.75
+techcrunch-hack-2019                    1.75
+language-flashcards                     1.75
+Talk2ServiceNow                         1.75
+multimodal-food-apps                    1.62
+fulfillent-importer                     0.0
+in-my-seats-jovo                        0.33
+Jovo-BusinessApp                        1.75
 
-WPTP Outliers threshold: [-1.4449999999999996, 6.595]
+WPTP Outliers threshold: [0.8033333333333333, 6.595]
 Name                                    value
 ------------------------------------------------------------
 googleChallenge                         9.62
+HHandoffDAgent                          0.0
+HumanHandoffDemonstrationAgent          0.0
+dialogflow-quotes                       0.0
+hackathon-group-10                      0.67
+hackathon-group-3                       0.67
+fulfillment-multi-locale                0.5
+fulfillent-importer                     0.0
 Car                                     6.8
 
-VPTP Outliers threshold: [-0.52, 1.56]
+VPTP Outliers threshold: [0.14666666666666667, 1.56]
 Name                                    value
 ------------------------------------------------------------
 googleChallenge                         1.76
+HHandoffDAgent                          0.0
+HumanHandoffDemonstrationAgent          0.0
+keijiban                                0.14
+basic-slotfilling                       0.08
+dialogflow-webhook-boilerplate          0.06
+stock-bot                               0.0
+ConversAI                               0.08
+libsample-advanced                      0.03
+News_Agent                              0.12
+dialogflow-quotes                       0.0
+hackathon-group-10                      0.0
+hackathon-group-3                       0.0
+fulfillment-multi-locale                0.0
+fulfillment-temperature-converter       0.13
+fulfillent-importer                     0.0
 
-PPTP Outliers threshold: [-1.2449999999999999, 2.0749999999999997]
+PPTP Outliers threshold: [0.11, 2.0749999999999997]
 Name                                    value
 ------------------------------------------------------------
+Education_Chatbot                       0.0
+HHandoffDAgent                          0.0
+HumanHandoffDemonstrationAgent          0.0
+kommunicate-support-bot-sample          0.03
+keijiban                                0.0
+marysbikeshop                           0.0
+defaults-chatfuel                       0.0
+defaults-manychat                       0.0
+Ecommerce_Bot                           0.0
+dialogflow-name-psychic                 0.0
+Easter-Eggs                             0.0
+airportagent_savelee                    0.0
+airportagent                            0.0
+iLearn                                  0.02
 Dining-Out                              8.33
+Job-Interview                           0.0
+woman                                   0.0
+dialogflow-transaction                  0.0
+dialogflow-webhook-boilerplate          0.0
+stock-bot                               0.0
+ConversAI                               0.0
+anthrofy                                0.0
 Agent-Name                              2.22
+News_Agent                              0.0
+dialogflow-conversation-components      0.0
+dialogflow-quotes                       0.0
+hackathon-group-10                      0.0
+hackathon-group-3                       0.0
+fulfillment-multi-locale                0.0
 Hotel-Booking                           5.0
 Food-Delivery                           2.3
+Developer-Buddy                         0.0
+cookie-sales-skill                      0.0
+AlexaSkill-PAB                          0.0
+fulfillent-importer                     0.0
+voiceapplication-sonnar                 0.1
+ChronoGG                                0.0
+in-my-seats-jovo                        0.0
 Car                                     2.25
+Today-In-History                        0.0
 MysteryAnimal                           2.27
 
-WPOP Outliers threshold: [-12.09, 20.15]
+WPOP Outliers threshold: [1.93, 20.15]
 Name                                    value
 ------------------------------------------------------------
+game-clock                              0.0
+Date                                    0.0
 Education_Chatbot                       22.89
 Insurance_Bot                           20.71
 HHandoffDAgent                          23.11
 HumanHandoffDemonstrationAgent          23.11
+Cheqin                                  0.0
+Formats                                 0.0
+jovo-skillrf                            0.0
+fulfillment-temperature-converter       1.5
+city-to-city                            0.0
+Hotel-Booking                           0.0
+VoiceClues                              0.0
+Jovo-sample                             0.0
+techcrunch-hack-2019                    0.0
+dialogflow-interactive-canvas           0.0
+Food-Delivery                           0.0
+language-flashcards                     0.0
+wellness-tracker-jovo                   0.0
+Developer-Buddy                         0.0
+Talk2ServiceNow                         0.0
+broken-sequence-jovo                    0.0
+cookie-sales-skill                      0.0
+foodfinder                              0.0
+AlexaSkill-PAB                          0.0
+ISU-Jovo-v2                             0.0
+multimodal-food-apps                    0.0
+fulfillent-importer                     0.0
+voiceapplication-sonnar                 0.0
+Device                                  0.0
+ChronoGG                                0.0
+in-my-seats-jovo                        0.0
+Jovo-BusinessApp                        0.0
+Car                                     0.0
+App-Management                          0.0
+voicecommerce                           0.0
+Today-In-History                        0.0
+videogame-language-model                0.0
+MysteryAnimal                           0.0
+first-project-test                      0.0
 
-VPOP Outliers threshold: [-3.0, 5.0]
+VPOP Outliers threshold: [0.3466666666666667, 3.4250000000000003]
+Name		 value
+------------------------------------------------------------
+AlexaSkill-PAB                          0.0
+App-Management                          0.0
+broken-sequence-jovo                    0.0
+Car                                     0.0
+Cheqin                                  0.0
+ChronoGG                                0.0
+city-to-city                            0.0
+cookie-sales-skill                      0.0
+Date                                    0.0
+Developer-Buddy                         0.0
+Device                                  0.0
+dialogflow-interactive-canvas           0.0
+first-project-test                      0.0
+Food-Delivery                           0.0
+foodfinder                              0.0
+Formats                                 0.0
+fulfillent-importer                     0.0
+fulfillment-telephony                   3.56
+game-clock                              0.0
+Hotel-Booking                           0.0
+HOTEL-BOOKING-AGENT2                    0.29
+in-my-seats-jovo                        0.0
+ISU-Jovo-v2                             0.0
+Jovo-BusinessApp                        0.0
+Jovo-sample                             0.0
+jovo-skillrf                            0.0
+language-flashcards                     0.0
+libsample-advanced                      0.1
+multimodal-food-apps                    0.0
+MysteryAnimal                           0.0
+Talk2ServiceNow                         0.0
+techcrunch-hack-2019                    0.0
+Today-In-History                        0.0
+videogame-language-model                0.0
+voiceapplication-sonnar                 0.0
+VoiceClues                              0.0
+voicecommerce                           0.0
+wellness-tracker-jovo                   0.0
+
+CPOP Outliers threshold: [7.853333333333333, 86.42500000000001]
 Name                                    value
 ------------------------------------------------------------
-fulfillment-telephony                   5.33
-
-CPOP Outliers threshold: [-51.855000000000004, 86.42500000000001]
-Name                                    value
-------------------------------------------------------------
+game-clock                              0.0
+Date                                    0.0
 Education_Chatbot                       125.56
 googleChallenge                         105.16
 Insurance_Bot                           104.86
@@ -157,18 +614,88 @@ HumanHandoffDemonstrationAgent          99.44
 fulfillment-telephony                   94.0
 HR-Bot                                  88.66
 kommunicate-support-bot-sample          87.2
+Cheqin                                  0.0
+Formats                                 0.0
+jovo-skillrf                            0.0
+city-to-city                            0.0
+Hotel-Booking                           0.0
+VoiceClues                              0.0
+Jovo-sample                             0.0
+techcrunch-hack-2019                    0.0
+dialogflow-interactive-canvas           0.0
+Food-Delivery                           0.0
+language-flashcards                     0.0
+wellness-tracker-jovo                   0.0
+Developer-Buddy                         0.0
+Talk2ServiceNow                         0.0
+broken-sequence-jovo                    0.0
+cookie-sales-skill                      0.0
+foodfinder                              0.0
+AlexaSkill-PAB                          0.0
+ISU-Jovo-v2                             0.0
+multimodal-food-apps                    0.0
+fulfillent-importer                     0.0
+voiceapplication-sonnar                 0.0
+Device                                  0.0
+ChronoGG                                0.0
+in-my-seats-jovo                        0.0
+Jovo-BusinessApp                        0.0
+Car                                     0.0
+App-Management                          0.0
+voicecommerce                           0.0
+Today-In-History                        0.0
+videogame-language-model                0.0
+MysteryAnimal                           0.0
+first-project-test                      0.0
 
-READ Outliers threshold: [-9.0, 15.0]
+READ Outliers threshold: [1.3333333333333333, 15.0]
 Name                                    value
 ------------------------------------------------------------
+game-clock                              0
+Date                                    0
 Education_Chatbot                       19
 googleChallenge                         16
 Insurance_Bot                           17
 HHandoffDAgent                          19
 HumanHandoffDemonstrationAgent          19
 fulfillment-telephony                   16
+Cheqin                                  0
+Formats                                 0
+jovo-skillrf                            0
+fulfillment-multi-locale                1
+fulfillment-temperature-converter       1
+city-to-city                            0
+Hotel-Booking                           0
+VoiceClues                              0
+Jovo-sample                             0
+techcrunch-hack-2019                    0
+dialogflow-interactive-canvas           0
+Food-Delivery                           0
+language-flashcards                     0
+wellness-tracker-jovo                   0
+Developer-Buddy                         0
+Talk2ServiceNow                         0
+broken-sequence-jovo                    0
+cookie-sales-skill                      0
+foodfinder                              0
+AlexaSkill-PAB                          0
+ISU-Jovo-v2                             0
+multimodal-food-apps                    0
+fulfillent-importer                     0
+voiceapplication-sonnar                 0
+Device                                  0
+ChronoGG                                0
+in-my-seats-jovo                        0
+Jovo-BusinessApp                        0
+Car                                     0
+App-Management                          0
+voicecommerce                           0
+Today-In-History                        0
+videogame-language-model                0
+MysteryAnimal                           0
+first-project-test                      0
 
-LPE Outliers threshold: [-7.5, 12.5]
+LPE Outliers threshold: [0.0, 12.5]
 Name                                    value
 ------------------------------------------------------------
 Date                                    20.67
@@ -185,26 +712,26 @@ Car                                     14.93
 App-Management                          28.33
 MysteryAnimal                           158.41
 
-SPL Outliers threshold: [-3.555, 5.925000000000001]
+SPL Outliers threshold: [0.0, 5.925000000000001]
 Name                                    value
 ------------------------------------------------------------
 Formats                                 7.13
 iotairblower                            6.83
 
-WL Outliers threshold: [-10.77, 17.95]
+WL Outliers threshold: [0.0, 17.95]
 Name                                    value
 ------------------------------------------------------------
 ekgsBot                                 20.61
 gordobbot                               36.0
 
-FACT Outliers threshold: [-0.55, 3.8500000000000005]
+FACT Outliers threshold: [0.6666666666666666, 3.8500000000000005]
 Name                                    value
 ------------------------------------------------------------
 keijiban                                4.71
 HOTEL-BOOKING-AGENT2                    8.0
 fulfillment-multi-locale                4.0
 
-FPATH Outliers threshold: [1.0, 1.0]
+FPATH Outliers threshold: [0.3333333333333333, 1.0]
 Name                                    value
 ------------------------------------------------------------
 Insurance_Bot                           2.0
@@ -227,7 +754,7 @@ Food-Delivery                           1.17
 Device                                  1.5
 Car                                     1.92
 
-CL Outliers threshold: [-0.5, 3.5]
+CL Outliers threshold: [0.3333333333333333, 3.5]
 Name                                    value
 ------------------------------------------------------------
 Insurance_Bot                           4
