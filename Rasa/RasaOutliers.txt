@@ -1,8 +1,9 @@
-INT Outliers threshold: [-6.875, 28.125]
+INT Outliers threshold: [3.0, 28.125]
 Name                                    value
 ------------------------------------------------------------
 01_smalltalk_bot                        84
 06_hotel_bot                            36
+07_survey_bot                           2
 covid-19-chatbot                        143
 covid19chatbot                          29
 Data-Mining-Chatbot                     69
@@ -43,7 +44,7 @@ RP-12978452-kai                         1
 tradunion                               1
 Upgrad-Assignment                       2
 
-FLOW Outliers threshold: [-3.625, 11.375]
+FLOW Outliers threshold: [1.0, 11.375]
 Name                                    value
 ------------------------------------------------------------
 01_smalltalk_bot                        84
@@ -62,23 +63,34 @@ small-talk-rasa-stack                   86
 starbucks                               18
 Tiara-A-Chatbot                         12
 
-PATH Outliers threshold: [-9.5, 26.5]
+PATH Outliers threshold: [2.3333333333333335, 26.5]
 Name                                    value
 ------------------------------------------------------------
 01_smalltalk_bot                        84
+02_lead_bot                             2
+04_feedback_bot                         2
 06_hotel_bot                            32
+07_survey_bot                           2
 amanjain1397                            29
+aniketbangar                            2
+concertbot                              1
 courses                                 29
+covid-19-chatbot                        2
 dong5854                                57
 finbot-master                           207
+flight-booking                          2
 FoodOrder_Chatbot                       61
+formoriginal                            1
 HealthCare_Bot                          33
 identity-cloning-toolkit                115
 kshamajha                               27
+matiasguerrero                          1
 nlp_bot_restaurant                      60
+rasa-song-chatbot                       2
 rasa-workshop-pydata-berlin             111
 Reasearch-Project-chatbot               29
 recruitment-bot-rasa                    68
+Restaurant_Chatbot                      2
 restaurantbot                           27
 Resto-bot                               30
 robot-rasa-nlp                          38
@@ -87,100 +99,202 @@ RP-12978452-kai                         29
 small-talk-rasa-stack                   92
 starbucks                               42
 
-CNF Outliers threshold: [-47.875, 93.125]
+CNF Outliers threshold: [3.3333333333333335, 93.125]
 Name                                    value
 ------------------------------------------------------------
 01_smalltalk_bot                        1653
+02_lead_bot                             2
+04_feedback_bot                         0
+07_survey_bot                           0
+10_freshdesk_customer_support_bot       0
+Ali                                     1
 Baymax                                  250
+Building-Chatbot                        2
+chatbot_rasa_v2                         2
 Chatbot-Banking                         198
+concertbot                              0
+corona-chatbot                          3
 courses                                 154
 covid-19-chatbot                        10532
 covid19chatbot                          1008
+Create-Your-First                       2
 Data-Mining-Chatbot                     1063
+expense_tracker                         2
+FAQ-RASA-NLU                            3
 financial-demo                          117
 finbot-master                           900
+formoriginal                            1
 identity-cloning-toolkit                3461
+ManishaGDas                             1
+matiasguerrero                          1
+place_finder                            1
+rasa-faq-bot                            2
 RasaAPI                                 109
+rasaopen                                2
+RasaProject_Docker                      0
 Reasearch-Project-chatbot               154
 recruitment-bot-rasa                    614
+Restaurant_Chatbot                      1
 Resto-bot                               344
 robot-rasa-nlp                          195
 RP                                      257
 RP-12978452-kai                         154
 small-talk-rasa-stack                   2385
 starbucks                               1506
+Time-Zone-Chatbot                       2
+Timezone-Rasa                           2
+timezonebot-1                           2
+timezonebot2                            2
+Upgrad-Assignment                       1
+WeatherBot                              0
 
-SNT1 Outliers threshold: [-12.125, 46.875]
+SNT1 Outliers threshold: [5.666666666666667, 46.875]
 Name                                    value
 ------------------------------------------------------------
+09_news_api                             0
+Ali                                     0
+Baymax                                  4
+Camillads                               0
+chatbot1demo                            0
+financial-demo                          2
+formoriginal                            0
+knock-knock                             4
+Mint-Events-Lead-Gen-bot                1
+rasa_react                              0
+rasa-faq-bot                            1
+rasa-song-chatbot                       4
+RasaAPI                                 0
+restaurantbot                           1
+Restuarant-Chatbot-Using-Rasa           5
+rohitkumar5058                          1
+Shany2                                  0
+starbucks                               5
 yassinelamarti                          58
 
-SNT2 Outliers threshold: [40.5, 108.5]
+SNT2 Outliers threshold: [24.333333333333332, 108.5]
 Name                                    value
 ------------------------------------------------------------
-covid-19-chatbot                        40
-FAQ-RASA-NLU                            34
-trackncov19                             38
 
-SNT3 Outliers threshold: [-22.125, 36.875]
+SNT3 Outliers threshold: [2.0, 36.875]
 Name                                    value
 ------------------------------------------------------------
+05_event_bot                            0
+09_news_api                             0
+10_freshdesk_customer_support_bot       0
+abishekv7                               0
+Ali                                     0
+Baisc_Demo                              0
+Camillads                               0
+Chatbot_Cab                             0
+chatbot1demo                            0
+concertbot                              0
+Covid-19_bot                            0
+Create-Your-First                       0
+devbot                                  0
+diagrams2ai                             0
+elekdra01                               0
+episode8                                0
+FAQ_Bot                                 0
 FAQ-RASA-NLU                            51
+flight-booking                          0
+formbot                                 0
+formoriginal                            0
+heroku_demo                             0
+juwolfrum                               0
+jwheat                                  0
+matiasguerrero                          0
+ml-data-bot                             0
+moodbot                                 0
+movie_chatbot                           0
+MyPython-master                         0
+NLP-workshop-newsbot                    0
+project_chatbot                         0
+Rasa_Docker_Test                        0
+rasa_react                              0
+rasa-playground                         0
+RasaAPI                                 0
+RasaDocker                              0
+santoshikalaskar                        0
+santoshkumar30                          0
+sathsaraRasantha                        0
+Shany2                                  0
+starter-pack-rasa-stack                 0
+test_bot                                0
+TestFirstRasaBot                        0
+TheWitchat                              0
+Time-Zone-Chatbot                       0
+Timezone-Rasa                           0
+timezonebot-1                           0
+timezonebot2                            0
 trackncov19                             44
+twb_asessement                          0
+Weather_Bot                             0
+Weather-Chatbot                         0
+WeatherBot                              0
+yassinelamarti                          0
 
-OPRE1 Outliers threshold: [-97.875, 163.125]
+OPRE1 Outliers threshold: [12.0, 163.125]
+Name                                    value
+------------------------------------------------------------
+256644                                  0
+01_smalltalk_bot                        0
+02_lead_bot                             0
+05_event_bot                            9
+06_hotel_bot                            0
+08_travel_agency_bot                    5
+aniketbangar                            0
+Building-Chatbot                        0
+Chatbot-Banking                         0
+chatform                                0
+concertbot                              0
+Data-Mining-Chatbot                     0
+dong5854                                0
+echo2rasa                               0
+episode8                                0
+financial-demo                          0
+finbot-master                           0
+HealthCare_Bot                          0
+HospitalLocator                         0
+ibot                                    0
+identity-cloning-toolkit                0
+ldaPub                                  0
+MADE-dialog                             0
+ManishaGDas                             0
+Mint-Events-Lead-Gen-bot                0
+nep-chatbot                             0
+NLP-workshop-newsbot                    0
+pydata18                                0
+rasa-for-beginners                      0
+RasaAPI                                 8
+RasaDocker                              11
+recruitment-bot-rasa                    0
+Restaurant_Chatbot                      0
+restaurantbot                           0
+Restuarant-Chatbot-Using-Rasa           0
+robot-rasa-nlp                          0
+sharadinfo                              0
+small-talk-rasa-stack                   0
+sokkalingam                             0
+Tiara-A-Chatbot                         0
+Upgrad-Assignment                       0
+vardhaman-freshers                      0
+Weather-Chatbot                         0
+
+OPRE2 Outliers threshold: [29.833333333333332, 130.0]
 Name                                    value
 ------------------------------------------------------------
 
-OPRE2 Outliers threshold: [50.0, 130.0]
+OPRE3 Outliers threshold: [40.0, 120.0]
 Name                                    value
 ------------------------------------------------------------
-256644                                  44
-vardhaman-freshers                      47
 
-OPRE3 Outliers threshold: [120.0, 120.0]
-Name                                    value
-------------------------------------------------------------
-03_real_estate_bot                      117
-05_event_bot                            86
-06_hotel_bot                            116
-08_travel_agency_bot                    115
-09_news_api                             90
-10_freshdesk_customer_support_bot       85
-AI-NLP                                  117
-Ali                                     115
-amanjain1397                            118
-aniketbangar                            117
-Building-Chatbot                        117
-Chatbot_Cab                             117
-chatbot_rasa_v2                         105
-covid-19-chatbot                        116
-flight-booking                          117
-kshamajha                               118
-nep-chatbot                             117
-project_chatbot                         117
-Rasa_NLU_ChatBot                        114
-rasa_react                              92
-rasa-faq-bot                            117
-rasa-hotel-chatbot                      118
-RasaAPI                                 106
-rasaChatbot                             116
-rasaopen                                105
-Restaurant_Chatbot                      117
-Resto-bot                               106
-Restuarant-Chatbot-Using-Rasa           117
-starter-pack-rasa-stack                 117
-Tiara-A-Chatbot                         118
-Upgrad-Assignment                       117
-vardhaman-freshers                      118
-wall-e                                  118
-
-TPI Outliers threshold: [-8.433749999999998, 29.21625]
+TPI Outliers threshold: [2.6950000000000003, 29.21625]
 Name                                    value
 ------------------------------------------------------------
 ai_ml_repo                              41.8
 aniketbangar                            235.17
 Baymax                                  34.21
+concertbot                              0.0
 covid19chatbot                          33.07
 dong5854                                97.25
 echo2rasa                               31.67
@@ -192,26 +306,96 @@ kshamajha                               71.38
 nlp_bot_restaurant                      53.44
 rasa-faq-bot                            205.6
 rasaChatbot                             30.17
+RasaProject_Docker                      2.6
 restaurantbot                           124.0
 Resto-bot                               35.85
 sokkalingam                             214.33
 starbucks                               63.29
+Tiara-A-Chatbot                         1.0
+vardhaman-freshers                      2.29
 
-WPTP Outliers threshold: [-0.11124999999999963, 6.23875]
+WPTP Outliers threshold: [0.9433333333333334, 6.23875]
 Name                                    value
 ------------------------------------------------------------
+concertbot                              0.0
+Tiara-A-Chatbot                         0.88
 
-VPTP Outliers threshold: [-0.2174999999999998, 1.4425]
+VPTP Outliers threshold: [0.18333333333333335, 1.4425]
 Name                                    value
 ------------------------------------------------------------
+04_feedback_bot                         0.17
+05_event_bot                            0.12
+07_survey_bot                           0.0
+09_news_api                             0.0
+Ali                                     0.14
+Chatbot-Banking                         0.12
+concertbot                              0.0
+matiasguerrero                          0.0
 
-PPTP Outliers threshold: [-0.78375, 1.30625]
+PPTP Outliers threshold: [0.08333333333333333, 1.30625]
 Name                                    value
 ------------------------------------------------------------
+01_smalltalk_bot                        0.0
+02_lead_bot                             0.0
+03_real_estate_bot                      0.0
+04_feedback_bot                         0.0
+05_event_bot                            0.0
+06_hotel_bot                            0.0
+07_survey_bot                           0.0
+08_travel_agency_bot                    0.0
+09_news_api                             0.0
+10_freshdesk_customer_support_bot       0.0
+Baisc_Demo                              0.0
+Baymax                                  0.05
+Chat_Bot                                0.0
+Chatbot_Cab                             0.0
+chatbot_rasa                            0.0
+concertbot                              0.0
+corona-chatbot                          0.0
+covid-19-chatbot                        0.0
+covid19chatbot                          0.03
+cse591chatbot                           0.06
+Data-Mining-Chatbot                     0.0
+devbot                                  0.0
+diagrams2ai                             0.0
+Email-WhatsApp-Integration-Chatbot      0.0
+FAQ-RASA-NLU                            0.0
+finbot-master                           0.07
 flight-booking                          1.6
 Foodie-Rasa-Chatbot                     1.5
+heroku_demo                             0.0
+iplChatbot                              0.0
+juwolfrum                               0.0
+jwheat                                  0.0
+knock-knock                             0.0
+ldaPub                                  0.0
+matiasguerrero                          0.0
+moodbot                                 0.0
+mpchatbot                               0.0
+MyPython-master                         0.0
+nep-chatbot                             0.0
+project_chatbot                         0.0
+Rasa_Docker_Test                        0.0
+rasa-faq-bot                            0.0
+rasa-playground                         0.0
+RasaDocker                              0.0
+rasaopen                                0.0
+real-estate-rasa                        0.0
+recruitment-bot-rasa                    0.0
+santoshikalaskar                        0.0
+santoshkumar30                          0.0
+sathsaraRasantha                        0.0
+Shany2                                  0.0
+small-talk-rasa-stack                   0.0
+test_bot                                0.0
+TestFirstRasaBot                        0.0
+Tiara-A-Chatbot                         0.0
+trackncov19                             0.07
+twb_asessement                          0.0
+vardhaman-freshers                      0.0
+yassinelamarti                          0.0
 
-WPOP Outliers threshold: [0.27124999999999755, 13.941250000000004]
+WPOP Outliers threshold: [2.21, 13.941250000000004]
 Name                                    value
 ------------------------------------------------------------
 256644                                  32.09
@@ -225,16 +409,22 @@ rasaopen                                23.07
 Tiara-A-Chatbot                         87.63
 trackncov19                             53.17
 
-VPOP Outliers threshold: [-0.018750000000000266, 3.21125]
-Name                                    value
+VPOP Outliers threshold: [0.39999999999999997, 2.165]
+Name		 value
 ------------------------------------------------------------
-Data-Mining-Chatbot                     4.39
-FAQ-RASA-NLU                            3.56
-nep-chatbot                             3.6
-rasaopen                                4.73
-Tiara-A-Chatbot                         4.19
+05_event_bot                            2.2
+06_hotel_bot                            2.17
+08_travel_agency_bot                    2.59
+Chatbot-Banking                         0.17
+concertbot                              0.25
+Data-Mining-Chatbot                     3.52
+FAQ-RASA-NLU                            3.33
+flight-booking                          2.36
+Tiara-A-Chatbot                         2.78
+trackncov19                             3.15
+WeatherBot                              0.2
 
-CPOP Outliers threshold: [-7.0837500000000055, 68.56625000000001]
+CPOP Outliers threshold: [9.465, 68.56625000000001]
 Name                                    value
 ------------------------------------------------------------
 256644                                  208.91
@@ -250,13 +440,14 @@ Tiara-A-Chatbot                         440.1
 trackncov19                             273.5
 vardhaman-freshers                      93.73
 
-READ Outliers threshold: [-0.5, 11.5]
+READ Outliers threshold: [1.6666666666666667, 11.5]
 Name                                    value
 ------------------------------------------------------------
 256644                                  27
 05_event_bot                            12
 06_hotel_bot                            19
 08_travel_agency_bot                    17
+concertbot                              1
 Data-Mining-Chatbot                     62
 FAQ-RASA-NLU                            46
 nep-chatbot                             48
@@ -276,7 +467,7 @@ WL Outliers threshold: [0.0, 0.0]
 Name                                    value
 ------------------------------------------------------------
 
-FACT Outliers threshold: [0.5199999999999999, 1.8800000000000003]
+FACT Outliers threshold: [0.3666666666666667, 1.8800000000000003]
 Name                                    value
 ------------------------------------------------------------
 256644                                  1.9
@@ -295,7 +486,7 @@ nlp_bot_restaurant                      2.74
 rasaopen                                2.06
 Restuarant-Chatbot-Using-Rasa           1.97
 
-FPATH Outliers threshold: [-1.28125, 5.46875]
+FPATH Outliers threshold: [0.5566666666666666, 5.46875]
 Name                                    value
 ------------------------------------------------------------
 05_event_bot                            20.0
@@ -320,18 +511,29 @@ RP                                      6.4
 RP-12978452-kai                         5.8
 sokkalingam                             8.0
 
-CL Outliers threshold: [-3.0, 13.0]
+CL Outliers threshold: [1.3333333333333333, 13.0]
 Name                                    value
 ------------------------------------------------------------
+01_smalltalk_bot                        1
+07_survey_bot                           1
 aniketbangar                            211
+Camillads                               1
+Chatbot_Cab                             1
+corona-chatbot                          1
 covid-19-chatbot                        73
 dong5854                                16
+expense_tracker                         1
+FAQ-RASA-NLU                            1
 HealthCare_Bot                          15
 identity-cloning-toolkit                16
+nep-chatbot                             1
+project_chatbot                         1
+rasa_react                              1
 rasa-song-chatbot                       23
 rasa-workshop-pydata-berlin             14
 restaurantbot                           16
 small-talk-rasa-stack                   16
 sokkalingam                             14
 Tiara-A-Chatbot                         30
+wall-e                                  1
 
